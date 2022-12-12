@@ -185,7 +185,7 @@ class MainApp(ThemedTk):
         self.screen_update()
 
     def screen_update(self):
-        self._selected_source.set(str(self._source.number + 1) + ' ' + self._source.name + ' ' + self._source.serial)
+        # self._selected_source.set(str(self._source.number + 1) + ' ' + self._source.name + ' ' + self._source.serial)
         self._selected_isotope.set(self._source.name)
         self._halflife.set(self._source.halflife)
         self._prod_date.set(self._source.prod_date)
